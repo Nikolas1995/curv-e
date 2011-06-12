@@ -223,13 +223,40 @@ body {
 #tracker-side {
 	float: left;
 	width: 160px;
+	padding-top: 10px;
 	border-right: 1px solid #bfbfbf;
 	background: #eaeaea;
 }
 
+#tracker-side ul {
+	border-top: 1px solid #bfbfbf;
+}
+
+#tracker-side li a {
+	font: 15px Calibri, Arial, sans-serif;
+	color: #393939;
+	text-decoration: none;
+
+}
+
+#tracker-side li:hover {
+	background: #53732e;
+	color: #fff;
+	background: -moz-linear-gradient(top, #749c46 0%, #53732e 100%);
+	background: -webkit-linear-gradient(top, #749c46 0%,#53732e 100%);
+	background: -o-linear-gradient(top, #749c46 0%,#53732e 100%);
+	background: -ms-linear-gradient(top, #749c46 0%,#53732e 100%);
+	background: linear-gradient(top, #749c46 0%,#53732e 100%);
+}
+
+#tracker-side li a:hover {
+	color: #fff;
+}
+
 #tracker-side li {
-	height: 32px;
+	height: 26px;
 	border-bottom: 1px solid #bfbfbf;
+	padding: 6px 0 0 10px;
 	background: #eaeaea;
 	background: -moz-linear-gradient(top, #eaeaea 0%, #dbdbdb 100%);
 	background: -webkit-linear-gradient(top, #eaeaea 0%,#dbdbdb 100%);
@@ -247,6 +274,29 @@ body {
 #tracker-content #tracker-post .track-id {
 	background: #e3e3e3;
 	border-radius: 5px;
+	margin-top: 10px;
+	border: 1px solid #c8c8c8;
+}
+
+#tracker-content #tracker-post .track-id th {
+	text-align: left;
+	margin-right: 10px;
+}
+
+#tracker-content #tracker-post .track-id td:first-child {
+	width: 50px;
+}
+
+#tracker-content #tracker-post .track-id td:last-child {
+	width: 150px;
+}
+
+#tracker-content #tracker-post .track-id td {
+	width: 350px;
+	font: 16px/20px Calibri, Arial, Verdana, sans-serif;
+	font-weight: bold;
+	color: #393939;
+
 }
 
 .track-header {
