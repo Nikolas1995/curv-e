@@ -14,10 +14,6 @@ body {
 	z-index: 2;
 }
 
-#test {
-	width: 1000px;
-}
-
 #header {
 	width: 960px;
 	color: #fff;
@@ -201,6 +197,13 @@ body {
 	background-color: #fff;
 }
 
+#content h2 {
+	color: #3d3d3d;
+	font: 15px/20px Calibri, Arial, sans-serif;
+	font-weight: bold;
+	margin: 0 0 4px 3px;
+}
+
 #wrapper {
 	width: 960px;
 	color: #393939;
@@ -340,7 +343,8 @@ body {
 
 #tracker-left {
 	float: left;
-	width: 240px;
+	width: 239px;
+	border-right: 1px solid #adadad;
 }
 
 #tracker-right {
@@ -376,6 +380,7 @@ body {
 #tracker-left .bug-details {
 	width: 90%;
 	margin: 0 auto;
+	font: 14px/20px Calibri, Arial, sans-serif;
 }
 
 #tracker-right .bug-content {
@@ -383,6 +388,17 @@ body {
 	border-radius: 5px;
 	padding: 10px;
 	margin: 10px 10px 0 0;
+}
+
+#tracker-right textarea {
+	width: 500px;
+	height: 80px;
+	border-radius: 3px;
+	border: 1px solid #aeaeae;
+}
+
+#tracker-right .bug-new-main {
+	margin-left: 20px;
 }
 
 .bug-review {
@@ -393,4 +409,23 @@ body {
 .bug-menu div{
 	float: left;
 	margin-left: 20px;
+}
+
+.bug-give {
+	width: 210px;
+	height: 25px;
+	padding: -8px 0 0 0;
+	margin: 0;
+	border-radius: 3px;
+	border: 1px solid #aeaeae;
+}
+
+.bug-give .hurensohn {
+	border: none;
+	margin: 0;
+	padding: 0px;
+}
+
+.bug-give-img {
+	margin-top: 6px;
 }
